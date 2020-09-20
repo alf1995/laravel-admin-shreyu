@@ -19,7 +19,7 @@ Panel de administración basico usando el template Shreyu.
 ```
 # Configuración
 
-- Crearemos nuestro archivo .env dentro de nuestro proyecto desde la terminal windows con el siguiente comando
+- Crearemos nuestro archivo **.env** dentro de nuestro proyecto desde la terminal windows con el siguiente comando
 ```
   copy NUL .env
 ```
