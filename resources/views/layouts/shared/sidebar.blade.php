@@ -40,8 +40,7 @@
 
                 <div class="dropdown-divider"></div>
 
-                <a href="javascript:void(0);" class="dropdown-item notify-item" onclick="event.preventDefault();
-                document.getElementById('logout-form').submit();">
+                <a href="javascript:void(0);" class="dropdown-item notify-item" onclick="event.preventDefault();document.getElementById('logout-form').submit();">
                     <i data-feather="log-out" class="icon-dual icon-xs mr-2"></i>
                     <span>Cerrar sesión</span>
                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
