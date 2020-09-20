@@ -1,0 +1,15 @@
+.custom-style-file{
+    content: 'Select some files' !important;
+    display: inline-block !important;
+    background: linear-gradient(top, #f9f9f9, #e3e3e3) !important;
+    border: 1px solid #e2e7f1 !important;
+    border-radius: 3px !important;
+    padding: 5px 8px !important;
+    outline: none !important;
+    white-space: nowrap !important;
+    -webkit-user-select: none !important;
+    cursor: pointer !important;
+    text-shadow: 1px 1px #fff !important;
+    font-weight: 700 !important;
+    font-size: 10pt !important;
+}
