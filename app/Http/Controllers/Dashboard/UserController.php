@@ -172,7 +172,7 @@ class UserController extends Controller
             $title = 'Proceso inválido';
             $status = 'error';
             $time = '';
-            $message = "No se pudo eliminar registro activo";
+            $message = "No se pudo eliminar el registro activo";
         }
         return response()->json([
             'title' => $title, 'time' => $time, 'status' => $status, 'message' => $message
