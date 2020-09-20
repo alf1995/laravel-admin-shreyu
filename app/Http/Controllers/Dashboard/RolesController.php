@@ -103,7 +103,7 @@ class RolesController extends Controller
             $title = 'Proceso inválido';
             $status = 'error';
             $time = '';
-            $message = "No se pudo eliminar registro";
+            $message = "No se pudo eliminar el registro";
             return response()->json(['title' => $title,'time' => $time,'status' => $status,'message' => $message]);
         }
         
