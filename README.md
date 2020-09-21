@@ -77,6 +77,20 @@ php artisan key:generate
 ```
 # Características
 
+- Para acceder al panel de administración ingresaremos la url **/dashboard** :
+```
+Usuarios
+
+  Admin:
+   - Usuario: admin@gmail.com
+   - Contraseña: admin2020
+   
+  Editor:
+   - Usuario: editor@gmail.com
+   - Contraseña: editor2020
+    
+```
+
 - Módulo de usuario.
 
 ![Imagen de modulo usuario](https://i.imgur.com/KaVi86i.png)
