@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Http\Controllers\Dashboard;
 
 use Spatie\Permission\Models\Role;

@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Http\Controllers\Dashboard;
 
 use App\Model\User;
