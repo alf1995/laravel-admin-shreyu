@@ -3,13 +3,13 @@
 
 @section('css')
 <!-- Plugins css -->
-<link href="{{ URL::asset('assets/libs/bootstrap-tagsinput/bootstrap-tagsinput.min.css') }}" rel="stylesheet" />
-<link href="{{ URL::asset('assets/libs/select2/select2.min.css') }}" rel="stylesheet" type="text/css" />
-<link href="{{ URL::asset('assets/libs/multiselect/multiselect.min.css') }}" rel="stylesheet" type="text/css" />
-<link href="{{ URL::asset('assets/libs/flatpickr/flatpickr.min.css') }}" rel="stylesheet" type="text/css" />
-<link href="{{ URL::asset('assets/libs/bootstrap-colorpicker/bootstrap-colorpicker.min.css') }}" rel="stylesheet"
+<link href="{{ asset('assets/libs/bootstrap-tagsinput/bootstrap-tagsinput.min.css') }}" rel="stylesheet" />
+<link href="{{ asset('assets/libs/select2/select2.min.css') }}" rel="stylesheet" type="text/css" />
+<link href="{{ asset('assets/libs/multiselect/multiselect.min.css') }}" rel="stylesheet" type="text/css" />
+<link href="{{ asset('assets/libs/flatpickr/flatpickr.min.css') }}" rel="stylesheet" type="text/css" />
+<link href="{{ asset('assets/libs/bootstrap-colorpicker/bootstrap-colorpicker.min.css') }}" rel="stylesheet"
     type="text/css" />
-<link href="{{ URL::asset('assets/libs/bootstrap-touchspin/bootstrap-touchspin.min.css') }}" rel="stylesheet"
+<link href="{{ asset('assets/libs/bootstrap-touchspin/bootstrap-touchspin.min.css') }}" rel="stylesheet"
     type="text/css" />
 @endsection
 
@@ -89,15 +89,15 @@
 
 @section('script')
 <!-- Plugins Js -->
-<script src="{{ URL::asset('assets/libs/bootstrap-tagsinput/bootstrap-tagsinput.min.js') }}"></script>
-<script src="{{ URL::asset('assets/libs/select2/select2.min.js') }}"></script>
-<script src="{{ URL::asset('assets/libs/multiselect/multiselect.min.js') }}"></script>
-<script src="{{ URL::asset('assets/libs/flatpickr/flatpickr.min.js') }}"></script>
-<script src="{{ URL::asset('assets/libs/bootstrap-colorpicker/bootstrap-colorpicker.min.js') }}"></script>
-<script src="{{ URL::asset('assets/libs/bootstrap-touchspin/bootstrap-touchspin.min.js') }}"></script>
+<script src="{{ asset('assets/libs/bootstrap-tagsinput/bootstrap-tagsinput.min.js') }}"></script>
+<script src="{{ asset('assets/libs/select2/select2.min.js') }}"></script>
+<script src="{{ asset('assets/libs/multiselect/multiselect.min.js') }}"></script>
+<script src="{{ asset('assets/libs/flatpickr/flatpickr.min.js') }}"></script>
+<script src="{{ asset('assets/libs/bootstrap-colorpicker/bootstrap-colorpicker.min.js') }}"></script>
+<script src="{{ asset('assets/libs/bootstrap-touchspin/bootstrap-touchspin.min.js') }}"></script>
 @endsection
 
 @section('script-bottom')
-<script src="{{ URL::asset('assets/js/pages/form-advanced.init.js') }}"></script>
-<script src="{{ URL::asset('dashbord/select.js') }}"></script> 
+<script src="{{ asset('assets/js/pages/form-advanced.init.js') }}"></script>
+<script src="{{ asset('dashbord/select.js') }}"></script> 
 @endsection

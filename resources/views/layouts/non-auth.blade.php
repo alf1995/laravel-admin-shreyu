@@ -9,7 +9,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- App favicon -->
-    <link rel="shortcut icon" href="{{ URL::asset('images/setting'). Settings::sistema()['favicon'] }}">
+    <link rel="shortcut icon" href="{{ asset('images/setting'). Settings::sistema()['favicon'] }}">
 
     <!-- App css -->
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />

@@ -18,5 +18,5 @@
 @endsection
 
 @section('script-bottom')
-<script src="{{ URL::asset('assets/js/pages/dashboard.init.js') }}"></script>
+<script src="{{ asset('assets/js/pages/dashboard.init.js') }}"></script>
 @endsection

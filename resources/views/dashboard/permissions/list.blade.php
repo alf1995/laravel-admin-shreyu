@@ -3,7 +3,7 @@
 
 @section('css')
 <!-- plugin css -->
-<link href="{{ URL::asset('assets/libs/datatables/datatables.min.css') }}" rel="stylesheet" type="text/css" />
+<link href="{{ asset('assets/libs/datatables/datatables.min.css') }}" rel="stylesheet" type="text/css" />
 @endsection
 
 @section('breadcrumb')
@@ -87,7 +87,7 @@
 @endsection
 
 @section('script')
-<script src="{{ URL::asset('assets/libs/datatables/datatables.min.js') }}"></script>
+<script src="{{ asset('assets/libs/datatables/datatables.min.js') }}"></script>
 @endsection
 
 @section('script-bottom')
@@ -100,6 +100,6 @@
     });
 </script> 
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@8"></script>
-<script src="{{ URL::asset('dashbord/script.js') }}"></script>    
+<script src="{{ asset('dashbord/script.js') }}"></script>    
 @endif
 @endsection
